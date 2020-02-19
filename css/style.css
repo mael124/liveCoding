@@ -1,0 +1,306 @@
+:root
+{
+    --color-black: black;
+    --color-blue: #0156fb;
+    --color-span: #81a2de;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general */
+a
+{
+    text-decoration: none;
+}
+
+/*-- Navbar --*/
+.nav
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 60px;
+}
+
+.logo
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--color-black);
+}
+
+.nav ul  
+{
+    display: flex;
+}
+
+.nav ul li
+{
+    list-style: none;
+    margin-right: 60px;
+}
+
+.nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--color-black);
+}
+
+.nav form
+{
+    display: flex;
+    width: 20%;
+    height: 30px;
+}
+
+.nav form input
+{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn-Search
+{
+    background: var(--color-blue);
+    padding: 5px 20px;
+    margin-left: -10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/*--- box Content ----*/
+.boxContent
+{
+    min-height: 300px;
+    width: 80%;
+    margin: 5px auto;
+}
+
+/*-- First section --*/
+.firstSection
+{
+    display: flex;
+}
+
+/*-- Part left */
+.firstSection__PartLeft
+{
+    flex: 2;
+    min-height: 300px;
+    margin-right: 10px;
+}
+
+.Illustration__PartLeft
+{
+    width: 100%;
+    height: 400px;
+    background: var(--color-black);
+    border-radius: 10px;
+
+}
+
+.Description__PartLeft
+{
+    margin-top: 20px;
+}
+
+.Description__PartLeft span
+{
+    color: var(--color-span);
+    font-size: 15px;
+}
+
+.Description__PartLeft h1
+{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Description__PartLeft p
+{
+    margin-top: 10px;
+    color: #ccc;
+    font-size: 20px;
+}
+
+.btn-link
+{
+    background: var(--color-blue);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+}
+
+/*-- Part right */
+.firstSection__PartRight
+{
+    flex: 1;
+    height: 100px;  
+}
+
+.items
+{
+    display: flex;
+    padding: 0 0 0 30px;
+    margin-bottom: 20px;
+}
+
+.item__Illustration
+{
+    height: 150px;
+    width: 50%;
+    background: var(--color-black);
+    border-radius: 5px;
+}
+
+.item__Descripttion
+{
+    margin-left: 20px;
+}
+
+.item__Descripttion span
+{
+    color: var(--color-span);
+}
+
+.item__Descripttion h4
+{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.item__Descripttion a
+{
+ color: var(--color-black);
+ font-size: 18px;
+}
+
+
+/*-- Second Section */
+.seconSection
+{
+    margin-top: 70px;
+}
+.secondSection__Items
+{
+    margin-top: 25px;
+    display: flex;
+}
+
+.newBlog__Item
+{
+    flex: 1;
+    margin-right: 30px;
+}
+
+.newBlog__Illustration
+{
+    height: 300px;
+    background: var(--color-black);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.newBlog__Description span
+{
+    color: var(--color-span);  
+}
+
+.newBlog__Description h4
+{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.newBlog__Description a
+{
+    color: var(--color-black);
+    font-size: 18px;
+}
+
+
+/*--- Last Section ---*/
+.LastSection
+{
+    margin-top: 70px;
+}
+
+.LastSection h1
+{
+    margin-bottom: 20px;
+}
+
+/*-- Part Left --*/
+.LastPart
+{
+    display: flex;
+}
+.LastSection__PartRight
+{
+   flex: 2;
+}
+
+.LastSection__Item
+{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.LastSection__IllustrationItems
+{
+    height: 150px;
+    width: 30%;
+    background: var(--color-black);
+    border-radius: 5px;
+}
+
+.LastSection__DescriptionItems
+{
+    margin-left: 20px;
+}
+
+.LastSection__DescriptionItems span
+{
+    color: var(--color-span);  
+}
+
+.LastSection__DescriptionItems h4
+{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.LastSection__DescriptionItems a
+{
+    color: var(--color-black);
+    font-size: 18px;
+}
+
+.LastSection__PartLeft
+{
+    flex: 1;
+}
+
+/* part right */
+.Block
+{
+    height: 500px;
+    background: var(--color-black);
+    border-radius: 5px;
+}
